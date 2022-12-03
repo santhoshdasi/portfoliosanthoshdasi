@@ -101,7 +101,6 @@ html{
     height:100vh;
     background-size:100%;
     color:#fff;
-   
     font-family:'Ubuntu', sans-serif;
 }
 .home .max-width{
@@ -651,6 +650,25 @@ footer span a:hover{
 }
 
 @media(max-width:500px){
+    .home{
+        height:70vh;
+    }
+    .home .home-content .text-1{
+    font-size: 25px;
+    }
+    .home .home-content .text-2{
+    font-size: 65px;
+    font-weight:600;
+    margin-left:-3px;
+    }
+    .home .home-content .text-3{
+    font-size: 40px;
+    margin:5px 0;
+    }
+    .home .home-content .text-3 span{
+    color:crimson;
+    font-weight:500px;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
